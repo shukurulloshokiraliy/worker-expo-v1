@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Worker Security",
+    "slug": "worker-security",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#090303"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#090303"
+      },
+      "package": "com.workersecurity.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE",
+        "android.permission.VIBRATE",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.WAKE_LOCK",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.PACKAGE_USAGE_STATS"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "color": "#8B0000"
+        }
+      ],
+      "expo-background-fetch"
+    ],
+    "scheme": "workersecurity",
+    "extra": {
+      "eas": {
+        "projectId": "1052a28e-b6db-4aba-9a19-ecf0d38b3c67"
+      }
+    }
+  }
+}
