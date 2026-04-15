@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Worker Security",
-    "slug": "worker-security",
+    "slug": "worker-v1",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
@@ -44,7 +44,7 @@
     "scheme": "workersecurity",
     "extra": {
       "eas": {
-     "projectId": "7e7381ca-d2bb-4637-bfbe-627c10fb95d1"
+        "projectId": "7e7381ca-d2bb-4637-bfbe-627c10fb95d1"
       }
     }
   }
